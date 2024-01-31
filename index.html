@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abib</title>
+    <link rel="stylesheet" href="./asset/css/layout.css">
+    <link rel="stylesheet" href="./asset/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.js"></script>
+    <script src="./asset/js/custom.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="group_head">
+            <span class="blind">첫화면</span>
+            <nav class="menu_bar">
+                <span class="blind">메뉴구역</span>
+                <ul class="main_menu">
+                    <li class="tab1">
+                        <a class="title" data-show="show_menu1">제품</a>
+                            <div class="menu_area" id="show_menu1">
+                                <ul class="sub_menu">
+                                    <li class="sub_menu_item">
+                                        <a class="sub_title">카테고리</a>
+                                        <ul class="sub_detail_list">
+                                            <li class="sub_detail_item"><a href="">스킨케어</a></li>
+                                            <li class="sub_detail_item"><a href="">마스크팩</a></li>
+                                            <li class="sub_detail_item"><a href="">클렌저</a></li>
+                                            <li class="sub_detail_item"><a href="">선케어</a></li>
+                                            <li class="sub_detail_item"><a href="">바디케어</a></li>
+                                            <li class="sub_detail_item"><a href="">파운데이션/립</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_menu_item">
+                                        <a class="sub_title">기능</a>
+                                        <ul class="sub_detail_list">
+                                            <li class="sub_detail_item"><a href="">진정</a></li>
+                                            <li class="sub_detail_item"><a href="">수분</a></li>
+                                            <li class="sub_detail_item"><a href="">미백</a></li>
+                                            <li class="sub_detail_item"><a href="">탄력/보습</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="sub_menu_item">
+                                        <a class="sub_title">라인</a>
+                                        <ul class="sub_detail_list">
+                                            <li class="sub_detail_item"><a href="">어성초</a></li>
+                                            <li class="sub_detail_item"><a href="">수분초</a></li>
+                                            <li class="sub_detail_item"><a href="">부활초</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div class="img_box">
+                                    <img src="./asset/images/menu1.jpg" alt="">
+                                </div>
+                            </div>
+                        </span>
+                    </li>
+                    <li class="tab1">
+                        <a class="title" data-show="show_menu2">고객지원</a>
+                        <div class="menu_area" id="show_menu2">
+                            <ul class="sub_menu">
+                                <li class="sub_menu_item">
+                                    <a class="sub_title">고객지원</a>
+                                    <ul class="sub_detail_list">
+                                        <li class="sub_detail_item"><a href="">이벤트</a></li>
+                                        <li class="sub_detail_item"><a href="">리뷰</a></li>
+                                        <li class="sub_detail_item"><a href="">공지사항</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="img_box">
+                                <img src="./asset/images/menu2.jpg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tab1"><a class="title">브랜드</a></li>
+                    <li class="tab1"><a class="title">맴버쉽</a></li>
+                </ul>
+            </nav>
+            <h1>
+                <span class="blind">logo</span>
+            </h1>
+            <div class="login_bar">
+                <span class="blind">카트로그인구역</span>
+                <ul class="login_list">
+                    <li class="tab1">카트</li>
+                    <li class="tab2">회원가입</li>
+                    <li class="tab3">로그인</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="sc_slide">
+            <div class="swiper slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="./asset/images/banner2.jpg" alt="">
+                        </div>
+                        </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="./asset/images/banner.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="img-box">
+                            <img src="./asset/images/Banner3.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sc_bestItem">
+            <span class="blind">베스트 아이템 구역</span>
+            <h2>Best Item</h2>
+            <div class="group_best_slider">
+                <div class="swiper best_slider">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide best1">
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="./asset/images/best1.jpg" alt="">
+                                </div>
+                                <div class="text_box_area">
+                                    <h5>어성초 스팟 패드</h5>
+                                    <div class="text_box">
+                                        <p>카밍 터치
+                                            <small>150ml / 80pads</small>
+                                        </p>
+                                        <span>24,000원</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide best1">
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="./asset/images/best2.jpg" alt="">
+                                </div>
+                                <div class="text_box_area">
+                                    <h5>껌딱지 시트 마스크</h5>
+                                    <div class="text_box">
+                                        <p>어성초 스티커
+                                            <small>27ml / 1ea</small>
+                                        </p>
+                                        <span>4,000원</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide best1">
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="./asset/images/best3.jpg" alt="">
+                                </div>
+                                <div class="text_box_area">
+                                    <h5>[신규회원 한정]<br>콜라겐 아이패치</h5>
+                                    <div class="text_box">
+                                        <p>부활초 젤리
+                                            <small>90g / 60ea</small>
+                                        </p>
+                                        <span>23,000원</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide best1">
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="./asset/images/best3.jpg" alt="">
+                                </div>
+                                <div class="text_box_area">
+                                    <h5>어성초 에센스</h5>
+                                    <div class="text_box">
+                                        <p>카밍 펌프
+                                            <small>50ml</small>
+                                        </p>
+                                        <span>18,900원</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide best1">
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="./asset/images/best4.jpg" alt="">
+                                </div>
+                                <div class="text_box_area">
+                                    <h5>아크네 폼 클렌져</h5>
+                                    <div class="text_box">
+                                        <p>어성초 폼
+                                            <small>150ml</small>
+                                        </p>
+                                        <span>16,000원</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="swiper-slide best1">
+                            <a href="">
+                                <div class="img_box">
+                                    <img src="./asset/images/best5.jpg" alt="">
+                                </div>
+                                <div class="text_box_area">
+                                    <h5>어성초 카밍 토너</h5>
+                                    <div class="text_box">
+                                        <p>스킨 부스터
+                                            <small>200ml</small>
+                                        </p>
+                                        <span>23,000원</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+        <section class="sc_product">
+            <span class="blind">추천 제품 구역</span> 
+            <h2>추천제품</h2>
+            <div class="group_product">
+                <ul class="pro_list">
+                    <li class="pro_item">
+                        <div class="front">
+                            <div class="img_box">
+                                <img src="./asset/images/recom1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>부활초 크림</span>
+                            <h5>뉴트리션 튜브</h5>
+                            <span>75ml</span>
+                            <h5>35,000원</h5>
+                            <a href="" class="btn_cart">CART IN</a>
+                        </div>
+                    </li>
+                    <li class="pro_item">
+                        <div class="front">
+                            <div class="img_box">
+                                <img src="./asset/images/recom2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>콜라겐 아이크림</span>
+                            <h5>부활초 튜브</h5>
+                            <span>30ml</span>
+                            <h5>26,000원</h5>
+                            <a href="" class="btn_cart">CART IN</a>
+                        </div>
+                    </li>
+                    <li class="pro_item">
+                        <div class="front">
+                            <div class="img_box">
+                                <img src="./asset/images/recom3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>부활초 비피다 세럼</span>
+                            <h5>퍼밍 드롭</h5>
+                            <span>50ml</span>
+                            <h5>32,000원</h5>
+                            <a href="" class="btn_cart">CART IN</a>
+                        </div>
+                    </li>
+                    <li class="pro_item">
+                        <div class="front">
+                            <div class="img_box">
+                                <img src="./asset/images/recom4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>베이직 케어 키트</span>
+                            <h5>아비브 키트</h5>
+                            <span>에센스 1ea + 부활초/겔/크림 1ea</span>
+                            <h5>43,400원</h5>
+                            <a href="" class="btn_cart">CART IN</a>
+                        </div>
+                    </li>
+                    <li class="pro_item">
+                        <div class="front">
+                            <div class="img_box">
+                                <img src="./asset/images/recom5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>트라이얼 키트</span>
+                            <h5>아비브 키트</h5>
+                            <span>어성초 토너 30ml + 부활초/겔/크림 30ml</span>
+                            <h5>13,600원</h5>
+                            <a href="" class="btn_cart">CART IN</a>
+                        </div>
+                    </li>
+                    <li class="pro_item">
+                        <div class="front">
+                            <div class="img_box">
+                                <img src="./asset/images/recom6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="back">
+                            <span>어성초 2-step 키트</span>
+                            <h5>아비브 키트</h5>
+                            <span>어성초 에멀젼 + 어성초 토너 + 어성초 폼</span>
+                            <h5>51,200원</h5>
+                            <a href="" class="btn_cart">CART IN</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="sc_view">
+            <span class="blind">제품 바로가기 구역</span>
+            <div class="group_view">
+                <h3>Heart leaf</h3>
+                <p>진정 케어의 기준<br>아비브 어성초 케어를 만나보세요</p>
+                <a href="" class="btn_view">view more</a>
+            </div>
+            <div class="group_view v1">
+                <h3>Sedum</h3>
+                <p>피부 위 차오르는 수분 보호막<br>아비브 어성초 케어를 만나보세요</p>
+                <a href="" class="btn_view">view more</a>
+            </div>
+            <div class="group_view v2">
+                <h3>Ture rose of Jericho</h3>
+                <p>내 첫번째 안티에어징<br>아비브 부활초 탄력 케어를 만나보세요</p>
+                <a href="" class="btn_view">view more</a>
+            </div>
+        </section>
+        <section class="sc_brandstory">
+            <h2 class="blind">브랜드 스토리</h2>  
+            <p>첫번째 달을 만나다. <br>
+            아비브를 만나는 순간 시작되는 새로운 당신.</p>
+            <a href="" class="btn_story">브랜드 스토리</a>
+        </section>
+        <section class="sc_ad">
+            
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <h2 class="blind">꼬리말 그외</h2>
+        <div class="group_info">
+            <p>The digital platform for ABIB CO.<br>Manual for Freedom, Research and Creativity
+            </p>
+            <address>
+                <a href="" class="link_about">About Us</a>
+                (주)포컴퍼니<br>
+                서울시 송파구 백제고분로9길 14, 301(잠실동) <a class="tel" href="tel:+">070-4131-5906</a><br>
+                대표자: 김민우<br>
+                통신판매업신고: 2017-서울송파-0651<br>
+                사업등록번호: 232-88-00610 사업자정보확인<br>
+                하나은행 183-910033-77004 (주)포컴퍼니<br>
+                호스팅제공 : 카페24(주)<br>
+            </address>
+        </div>
+        <div class="group_sub_menu common">
+            <h3>주요메뉴</h3>
+            <ul class="sub_list">
+                <li><a href="">카테고리</a></li>
+                <li><a href="">기능</a></li>
+                <li><a href="">브랜드 스토리</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">리뷰</a></li>
+            </ul>
+        </div>
+        <div class="group_service common">
+            <h3>고객 서비스</h3>
+            <ul class="ervice_list">
+                <li><a href="">주문조회</a></li>
+                <li><a href="">문의</a></li>
+                <li><a href="">자주 묻는 질문</a></li>
+                <li><a href="">고객 센터</a></li>
+                <li><a href="">매장 정보</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+            </ul>
+        </div>
+        <div class="group_sns">
+            <ul class="sns_list">
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
